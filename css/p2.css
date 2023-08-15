@@ -1,0 +1,344 @@
+	#page2{
+		display: none;
+	}
+	#p2_fanhui{
+		position: absolute;
+		width: 40px;
+		left: 3%;
+		top: 2%;
+	}
+	#cuowu{
+		position: absolute;
+		opacity: 0.7;
+		width: 170px;
+		top: 50%;
+		left: 25%;
+		display: none;
+	}
+	#cuowu1{
+		position: absolute;
+		opacity: 0.7;
+		width: 170px;
+		top: 50%;
+		left: 25%;
+		display: none;
+	}
+	#cuowu2{
+		position: absolute;
+		opacity: 0.7;
+		width: 170px;
+		top: 50%;
+		left: 25%;
+		display: none;
+	}
+	#cuowu3{
+		position: absolute;
+		opacity: 0.7;
+		width: 170px;
+		top: 50%;
+		left: 25%;
+		display: none;
+	}
+	#cuowu4{
+		position: absolute;
+		opacity: 0.7;
+		width: 170px;
+		top: 50%;
+		left: 25%;
+		display: none;
+	}
+	#p2timu{
+		position: relative;
+		background-image:url(../img/题目背景.png) ;
+		background-size:100% 100% ;
+		overflow: hidden;
+	}
+	#p2timu1{
+		position: absolute;
+		width: 80%;
+		left: 10%;
+		top: 30%;
+	}
+	#p2xuan1{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 45%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p2xuan2{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 53%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p2xuan3{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 61%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p2xuan4{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 69%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#timu{
+		position: relative;
+		background-image:url(../img/题目背景.png) ;
+		background-size:100% 100% ;
+		overflow: hidden;
+		display:none;
+	}
+	#p_xuan1{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 45%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p_xuan2{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 53%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p_xuan3{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 61%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p_xuan4{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 69%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p_timu{
+		position: absolute;
+		width: 80%;
+		left: 27%;
+		top: 30%;
+	}
+	#timu1{
+		position: relative;
+		background-image:url(../img/题目背景.png) ;
+		background-size:100% 100% ;
+		overflow: hidden;
+		display:none;
+	}
+	#p_timu1{
+		position: absolute;
+		width: 60%;
+		left: 20%;
+		top: 30%;
+	}
+	#p_xuanb1{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 45%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p_xuanb2{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 53%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p_xuanb3{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 61%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p_xuanb4{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 69%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#timu2{
+		position: relative;
+		background-image:url(../img/题目背景.png) ;
+		background-size:100% 100% ;
+		overflow: hidden;
+		display:none;
+	}
+	#p_timu2{
+		position: absolute;
+		width: 60%;
+		left: 20%;
+		top: 30%;
+	}
+	#p_xuanc1{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 45%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p_xuanc2{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 53%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p_xuanc3{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 61%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p_xuanc4{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 69%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#timu3{
+		position: relative;
+		background-image:url(../img/题目背景.png) ;
+		background-size:100% 100% ;
+		overflow: hidden;
+		display:none;
+	}
+	#p_timu3{
+		position: absolute;
+		width: 60%;
+		left: 20%;
+		top: 30%;
+	}
+	#p_xuand1{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 45%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p_xuand2{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 53%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p_xuand3{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 61%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p_xuand4{
+		position: absolute;
+		width: 100px;
+		height: 30px;
+		top: 69%;
+		left: 37%;
+		text-align-last: center;
+		background-image: url(../img/ti框.png);
+		background-size: 100% 100%;
+	}
+	#p2t_fanhui{
+		position: absolute;
+		width: 40px;
+		left: 3%;
+		top: 2%;
+	}
+	#ti_fanhui{
+		position: absolute;
+		width: 40px;
+		left: 3%;
+		top: 2%;
+	}
+	#ti1_fanhui{
+		position: absolute;
+		width: 40px;
+		left: 3%;
+		top: 2%;
+	}
+	#ti2_fanhui{
+		position: absolute;
+		width: 40px;
+		left: 3%;
+		top: 2%;
+	}
+	#ti3_fanhui{
+		position: absolute;
+		width: 40px;
+		left: 3%;
+		top: 2%;
+	}
+	

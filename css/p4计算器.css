@@ -1,0 +1,58 @@
+	#page4{
+		position: absolute;
+		background-image: url("../img/p4.png");
+		background-size: 100% 100%;
+		overflow: hidden;
+		display: none;
+	}
+	#p4_1{
+		position: absolute;
+		left: 8%;
+		top: 12%;
+	}
+	#end{
+		font-size: 40px;
+		max-width: 316px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		width: 303px;
+		height: 12vh;
+		background-color: #ffffff;
+		background-size: 100% 100%;
+	}
+	#is{
+		height: 166px;
+	}
+	.butt{
+		height:52px;
+		width: 60px;
+		background: #ffff7f;
+		border-width: 0;
+		cursor: pointer;
+		color: #000000;
+		font-size: 30px;
+		border-color: blue;
+	}
+	.p4_wz{
+		position: absolute;
+		width: 85%;
+		color: #FFFFFF;
+		font-family: kaiti;
+		font-size: 40px;
+		font-weight: 800;
+		top: -9%;
+		left: 25%;
+	}
+	.p4_anniu{
+		position: absolute;
+		width: 20%;
+		top: 73%;
+		left: 32%;
+	}
+	#p4_fanhui{
+		position: absolute;
+		width: 40px;
+		left: 3%;
+		top: 2%;
+	}

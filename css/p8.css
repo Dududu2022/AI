@@ -1,0 +1,19 @@
+#page8{
+	position: relative;
+	background-image: url("../img/p8.png");
+	background-size: 100% 100%;
+	overflow: hidden;
+	display: none;
+}
+#p8{
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+}
+.p8_anniu,.p8_anniu1{
+	position: relative;
+	width: 27%;
+	left: -0.5%;
+	height: 10%;
+	top: 60%;
+}

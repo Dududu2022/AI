@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: flex;
+	justify-content: center;
+}
+div{
+	width: 375px;
+	height: 667px;
+}
+.shubiao{
+	width: 32px;
+	height: 50px;
+	position: absolute;
+	background-image: url("../img/gif.gif");
+	background-size: cover;
+	overflow: hidden;
+	z-index: 1;
+}
+@media screen and (min-width:400px) {
+	body{
+		
+		background-color: antiquewhite;
+		background-size: 100% 100%;
+	}
+}

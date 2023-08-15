@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/icon.png">
+	<title>人工智能</title>
+	<link rel="stylesheet" href="css/框架.css">
+	<!-- <link rel="stylesheet" href="css/加载.css"> -->
+	<link rel="stylesheet" href="css/p.css">
+	<!-- <link rel="stylesheet" href="css/p4计算器.css"> -->
+	<link rel="stylesheet" href="css/p2.css">
+	<!-- <link rel="stylesheet" href="css/p6五子棋.css"> -->
+	<!-- <link rel="stylesheet" href="css/p8.css"> -->
+	<link rel="stylesheet" href="css/p3.css">
+</head>
+<style>
+</style>
+<body>
+	<div class="shubiao"></div>
+	<div id="jiazai">
+		<div class="loader"></div>
+		<font id="p_wz_jiazai"><b>AI初体验</b></font>
+	</div>
+	<div id="page">
+		<font id="p_wz"><b>AI初体验</b></font>
+		<img src="img/yinle.png" alt="" id="p_5">
+		<img src="img/p_1.png" alt="" id="p_1">
+		<img src="img/计算器.png" alt="" id="p_2">
+		<img src="img/p_3.png" alt="" id="p_3">
+		<img src="img/五子棋.png" alt="" id="p_4">
+		
+		<font id="p_wz11">AI发展历程</font>
+		<font id="p_wz33">AI常识小测试</font>
+		<font id="p_wz55">计算能手</font>
+		<font id="p_wz66">与AI对弈</font>
+		<font id="p_wz7">ps:点击文字进入到对应页面</font>
+		<div class="container">
+			<span class="q"></span>
+			<span class="q1"></span>
+			<span class="q2"></span>
+			<span class="q3"></span>
+			<span class="q4"></span>
+			<span class="q5"></span>
+			<span class="q6"></span>
+			<span class="q7"></span>
+			<span class="q8"></span>
+			<span class="q9"></span>
+		</div>
+		<section class="mmm">
+		  <div class="l"><img src="img/menzuo.png" id="lzuo"></div>
+		  <div class="r"><img src="img/menyou.png" id="ryou"></div>
+		</section>
+		<div id="p_anniu">
+			<font id="p_wz1">AI发展历程</font>
+			<font id="p_wz3">AI常识小测试</font>
+			<font id="p_wz5">计算能手</font>
+			<font id="p_wz6">与AI对弈</font>
+			<img src="img/yinle.png" alt="" id="p_55">
+			<audio autoplay="autoplay" id="yy">
+				<source src="media/yexiaowei%20-%20China-X.mp3">
+			</audio>
+		</div>
+	</div>
+	<div id="page4">
+		<div id="p4_1">
+			<table border="5px" align="center">
+			  <tr height="80px"><td width="303px"><div id="end"></div></td></tr>
+			 </table>
+			 <table border="5px" cellspacing="0" align="center" onclick="show()"> 
+			  <tr height="54px">
+			   <td><button class="butt">7</button></td>
+			   <td><button class="butt">8</button></td>
+			   <td><button class="butt">9</button></td>
+			   <td><button class="butt">+</button></td>
+			   <td><button class="butt" onclick="clearly()">C</button></td>
+			  </tr>
+			  <tr height="54px">
+			   <td><button class="butt">4</button></td>
+			   <td><button class="butt">5</button></td> 
+			   <td><button class="butt">6</button></td>
+			   <td><button class="butt">-</button></td>
+			   <td rowspan="3">
+			    <button class="butt" id="is" onclick="Calculate()">=</button>
+			   </td>
+			  </tr>
+			  <tr height="54px">
+			   <td><button class="butt">1</button></td>
+			   <td><button class="butt">2</button></td>
+			   <td><button class="butt">3</button></td>
+			   <td><button class="butt">*</button></td>
+			   </tr>
+			   <tr height="54px">
+			      <td><button class="butt">0</button></td>
+			      <td><button class="butt">.</button></td>
+			      <td><button class="butt">00</button></td>
+			      <td><button class="butt">/</button></td>
+			   </tr>
+			  </table>
+			  <font class="p4_wz">计算能手</font>
+		</div>
+		<img src="img/返回.png" id="p4_fanhui">
+	</div>
+	
+	<div id="page6">
+		<canvas id="c1" width="375px" height="667px"></canvas>
+		<div id="p6_1">
+			<font class="p6_biaoti">与AI对弈</font>
+		</div>
+		<img src="img/返回.png" id="p6_fanhui">
+	</div>
+	<div id="page8">
+		<div id="p8">
+			<img src="img/p8感谢浏览.png" alt="" class="p8_anniu1">
+			<img src="img/p8返回首页.png" alt="" class="p8_anniu">
+			<img src="img/p8感谢浏览.png" alt="" class="p8_anniu1">
+		</div>
+	</div>
+	<div id="page2">
+		<div id="p2timu">
+			<p id="p2timu1">艾萨克·阿西莫夫在20世纪中期，阿西莫夫提出了几条定律？</p>
+			<p id="p2xuan1">A:1</p>
+			<p id="p2xuan2">B:2</p>
+			<p id="p2xuan3">C:3</p>
+			<p id="p2xuan4">D:4</p>
+			<img src="img/组%201.png" id="cuowu">
+			<img src="img/返回.png" id="p2t_fanhui">
+		</div>
+		<div id="timu">
+			<p id="p_timu">人工智能的英文缩写为？</p>
+			<p id="p_xuan1">AI</p>
+			<p id="p_xuan2">RG</p>
+			<p id="p_xuan3">IA</p>
+			<p id="p_xuan4">AG</p>
+			<img src="img/组%201.png" id="cuowu1">
+			<img src="img/返回.png" id="ti_fanhui">
+		</div>
+		<div id="timu1">
+			<p id="p_timu1">首次提出人工智能拥有模仿智能的特征，懂得使用语言和什么概念？</p>
+			<p id="p_xuanb1">理论概念</p>
+			<p id="p_xuanb2">抽象概念</p>
+			<p id="p_xuanb3">创意概念</p>
+			<p id="p_xuanb4">矛盾概念</p>
+			<img src="img/组%201.png" id="cuowu2">
+			<img src="img/返回.png" id="ti1_fanhui">
+		</div>
+		<div id="timu2">
+			<p id="p_timu2">卡耐基梅隆大学为DEC公司设计了什么系统能够每年为DEC公司节省数千万美金？</p>
+			<p id="p_xuanc1">系统管家</p>
+			<p id="p_xuanc2">循环系统</p>
+			<p id="p_xuanc3">专家系统</p>
+			<p id="p_xuanc4">Linux系统</p>
+			<img src="img/组%201.png" id="cuowu3">
+			<img src="img/返回.png" id="ti2_fanhui">
+		</div>
+		<div id="timu3">
+			<p id="p_timu3">Arthur Samuel在50年代中期和什么年代初开发的国际象棋程序？</p>
+			<p id="p_xuand1">40年代</p>
+			<p id="p_xuand2">70年代</p>
+			<p id="p_xuand3">80年代</p>
+			<p id="p_xuand4">60年代</p>
+			<img src="img/组%201.png" id="cuowu4">
+			<img src="img/返回.png" id="ti3_fanhui">
+		</div>
+	</div>
+	<div id="page3">
+		<img src="img/返回.png" id="p3_fanhui">
+		<img src="img/动态图.gif" alt="" id="p3_ann">
+	</div>
+</body>
+<script src="js/new_file.js"></script>
+<!-- <script src="js/加载.js"></script> -->
+<script src="js/鼠标.js"></script>
+<script src="js/p4计算器.js"></script>
+<script src="js/p6五子棋.js"></script>
+</html>

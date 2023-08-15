@@ -1,0 +1,177 @@
+#page3{
+	position: relative;
+	background-image: url("../img/p3.png");
+	background-size: 100% 100%;
+	overflow: hidden;
+	display: none;
+}
+#p3_fanhui{
+		position: absolute;
+		width: 40px;
+		left: 3%;
+		top: 2%;
+	}
+#p3_ann{
+	position: absolute;
+	width: 30%;
+	height: 10%;
+	top: 90%;
+	left: 30%;
+}
+	#page4{
+		position: absolute;
+		background-image: url("../img/p4.png");
+		background-size: 100% 100%;
+		overflow: hidden;
+		display: none;
+	}
+	#p4_1{
+		position: absolute;
+		left: 8%;
+		top: 12%;
+	}
+	#end{
+		font-size: 40px;
+		max-width: 316px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		width: 303px;
+		height: 12vh;
+		background-color: #ffffff;
+		background-size: 100% 100%;
+	}
+	#is{
+		height: 166px;
+	}
+	.butt{
+		height:52px;
+		width: 60px;
+		background: #ffff7f;
+		border-width: 0;
+		cursor: pointer;
+		color: #000000;
+		font-size: 30px;
+		border-color: blue;
+	}
+	.p4_wz{
+		position: absolute;
+		width: 85%;
+		color: #FFFFFF;
+		font-family: kaiti;
+		font-size: 40px;
+		font-weight: 800;
+		top: -9%;
+		left: 25%;
+	}
+	.p4_anniu{
+		position: absolute;
+		width: 20%;
+		top: 73%;
+		left: 32%;
+	}
+	#p4_fanhui{
+		position: absolute;
+		width: 40px;
+		left: 3%;
+		top: 2%;
+	}
+	#page6{
+			position: relative;
+			background-image: url("../img/p5.png");
+			background-size: 100% 100%;
+			overflow: hidden;
+			display: none;
+			z-index: 1;
+		}
+		.p6_biaoti{
+			position: absolute;
+			top: 3%;
+			font-weight: 800;
+			color: #ffa810;
+			font-size: 50px;
+			text-align: center;
+		}
+		#c1 {
+			position: absolute;
+			top: 20%;
+			box-shadow: 1px 1px px #000000;
+			width: 100%;
+			background-color: #5d73ff;
+			background-size: 100% 100%;
+		}
+		#p6_1{
+			display: flex;
+			justify-content: center;
+		}
+		.p6_anniu{
+			position: absolute;
+			width: 20%;
+			top: 85%;
+		}
+		#p6_fanhui{
+			position: absolute;
+			width: 40px;
+			left: 3%;
+			top: 2%;
+		}
+		#page8{
+			position: relative;
+			background-image: url("../img/p8.png");
+			background-size: 100% 100%;
+			overflow: hidden;
+			display: none;
+		}
+		#p8{
+			position: absolute;
+			display: flex;
+			justify-content: space-around;
+		}
+		.p8_anniu,.p8_anniu1{
+			position: relative;
+			width: 27%;
+			left: -0.5%;
+			height: 10%;
+			top: 60%;
+		}
+		#jiazai{
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: linear-gradient(to top,#1e3c72,#2a5298);
+			overflow: hidden;
+			z-index: 2;
+		}
+		.loader{
+			position: absolute;
+			width: 125px;
+			top: 50%;
+		}
+		.loader::before,
+		.loader::after{
+			position: absolute;
+			content: "";
+			width: 50px;
+			height: 50px;
+			background-color: transparent;
+			animation: jumping 0.5s ease infinite alternate;
+		}
+		.loader::before{
+			left: 0;
+		}
+		.loader::after{
+			right: 0;
+			animation-delay: 0.15s;
+		}
+		@keyframes jumping{
+			0%{
+				transform: scale(1);
+				box-shadow: 0 0 0 transparent;
+			}
+			100%{
+				background-color: #fff;
+				transform: scale(1.2);
+				box-shadow: 0 60px 100px #fff;
+			}
+		}

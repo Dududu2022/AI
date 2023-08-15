@@ -1,0 +1,330 @@
+	#page{
+		position: relative;
+		background-image: url(../img/背景111.png);
+		background-size: 100% 100%;
+		overflow: hidden;
+		display: none;
+		z-index: 2;
+	}
+	#p_wz{
+		position: absolute;
+		font-size: 40px;
+		color: #2a91ff;
+		
+		top: 5%;
+		left: 30%;
+	}
+	#p_1{
+		position: absolute;
+		width: 15%;
+		top: 42.5%;
+		left: 75%;
+	}
+	#p_2{
+		position: absolute;
+		width: 17%;
+		top: 60%;
+		left: 16.5%;
+	}
+	#p_3{
+		position: absolute;
+		width: 20%;
+		top: 22%;
+		left: 15%;
+	}
+	#p_4{
+		position: absolute;
+		width: 15%;
+		top: 84%;
+		left: 72.5%;
+	}
+	#p_5{
+		position: absolute;
+		width: 12%;
+		top: 3%;
+		left: 85%;
+		animation: 3s xuanzhuan infinite linear;
+		animation-play-state: running;
+	}
+	#p_55{
+		position: absolute;
+		width: 12%;
+		top: 3%;
+		left: 85%;
+	}
+	@keyframes xuanzhuan{
+		from{transform: rotate(0deg);}
+		to{transform: rotate(360deg);}
+	}
+	#p_wz1{
+		position: absolute;
+		font-size: 25px;
+		top: 24%;
+		left: 40%;
+	}
+	#p_wz3{
+		position: absolute;
+		font-size: 25px;
+		top: 44%;
+		left: 30%;
+	}
+	#p_wz5{
+		position: absolute;
+		color: #ffaa00;
+		font-size: 20px;
+		top: 62%;
+		left: 41%;
+	}
+	#p_wz6{
+		position: absolute;
+		color: #ffaa00;
+		font-size: 20px;
+		top: 85%;
+		left: 39%;
+	}
+	#p_wz7{
+		position: absolute;
+		color: #ff0000;
+		font-size: 15px;
+		top: 97%;
+	}
+	.container{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-position-x: center;
+		display: flex;
+	}
+	.q::before,.q1::before,.q2::before,.q3::before,.q4::before,.q5::before,.q6::before,.q7::before,.q8::before,.q9::before{
+		position: absolute;
+		content: "";
+		top: 0%;
+		transform: translateX(-100%);
+		width: 70px;
+		height: 3px;
+		background: linear-gradient(270deg,#00ffff,transparent);
+	}
+	.q{
+	  	position: absolute;
+	  	top: 100%;
+	  	left: 49%;
+	  	width: 3px;
+	  	height: 3px;
+	  	background-color: #F0F8FF;
+	  	border-radius: 100%;
+	  	box-shadow: 0 0 0 2px rgba(255,255,255,0.1),0 0 0 4px rgba(255,255,255,0.1),0 0 0 6px rgba(255,255,255,0.1);
+	  	animation: 2s q linear infinite;
+	  	animation-duration: 0.2;
+	  	animation-delay: 0.2s;
+	  }
+	  .q1{
+	  	position: absolute;
+	  	top: 100%;
+	  	left: 20%;
+	  	width: 3px;
+	  	height: 3px;
+	  	background-color: #F0F8FF;
+	  	border-radius: 100%;
+	  	box-shadow: 0 0 0 2px rgba(255,255,255,0.1),0 0 0 4px rgba(255,255,255,0.1),0 0 0 6px rgba(255,255,255,0.1);
+	  	animation: 3s q linear infinite;
+	  	animation-delay: 4.9s;
+	  }
+	  .q2{
+	  	position: absolute;
+	  	top: 100%;
+	  	left: 30%;
+	  	width: 3px;
+	  	height: 3px;
+	  	background-color: #F0F8FF;
+	  	border-radius: 100%;
+	  	box-shadow: 0 0 0 2px rgba(255,255,255,0.1),0 0 0 4px rgba(255,255,255,0.1),0 0 0 6px rgba(255,255,255,0.1);
+	  	animation: 3s q linear infinite;
+	  	animation-delay: 7s;
+	  }
+	  .q3{
+	  	position: absolute;
+	  	top: 100%;
+	  	left: 25%;
+	  	width: 3px;
+	  	height: 3px;
+	  	background-color: #F0F8FF;
+	  	border-radius: 100%;
+	  	box-shadow: 0 0 0 2px rgba(255,255,255,0.1),0 0 0 4px rgba(255,255,255,0.1),0 0 0 6px rgba(255,255,255,0.1);
+	  	animation: 3s q linear infinite;
+	  	animation-delay: 10s;
+	  }
+	  .q4{
+	  	position: absolute;
+	  	top: 100%;
+	  	left: 35%;
+	  	width: 3px;
+	  	height: 3px;
+	  	background-color: #F0F8FF;
+	  	border-radius: 100%;
+	  	box-shadow: 0 0 0 2px rgba(255,255,255,0.1),0 0 0 4px rgba(255,255,255,0.1),0 0 0 6px rgba(255,255,255,0.1);
+	  	animation: 3s q linear infinite;
+	  	animation-delay: 6s;
+	  }
+	  .q5{
+	  	position: absolute;
+	  	top: 100%;
+	  	left: 40%;
+	  	width: 3px;
+	  	height: 3px;
+	  	background-color: #F0F8FF;
+	  	border-radius: 100%;
+	  	box-shadow: 0 0 0 2px rgba(255,255,255,0.1),0 0 0 4px rgba(255,255,255,0.1),0 0 0 6px rgba(255,255,255,0.1);
+	  	animation: 3s q linear infinite;
+	  	animation-delay: 1.4s;
+	  	animation-duration: 2.5s;
+	  }
+	  .q6{
+	  	position: absolute;
+	  	top: 100%;
+	  	left: 45%;
+	  	width: 3px;
+	  	height: 3px;
+	  	background-color: #F0F8FF;
+	  	border-radius: 100%;
+	  	box-shadow: 0 0 0 2px rgba(255,255,255,0.1),0 0 0 4px rgba(255,255,255,0.1),0 0 0 6px rgba(255,255,255,0.1);
+	  	animation: 3s q linear infinite;
+	  	animation-delay: 6.9s;
+	  }
+	  .q7{
+	  	position: absolute;
+	  	top: 100%;
+	  	left: 55%;
+	  	width: 3px;
+	  	height: 3px;
+	  	background-color: #F0F8FF;
+	  	border-radius: 100%;
+	  	box-shadow: 0 0 0 2px rgba(255,255,255,0.1),0 0 0 4px rgba(255,255,255,0.1),0 0 0 6px rgba(255,255,255,0.1);
+	  	animation: 3s q linear infinite;
+	  	animation-delay: 2s;
+	  }
+	  .q8{
+	  	position: absolute;
+	  	top: 100%;
+	  	left: 60%;
+	  	width: 3px;
+	  	height: 3px;
+	  	background-color: #F0F8FF;
+	  	border-radius: 100%;
+	  	box-shadow: 0 0 0 2px rgba(255,255,255,0.1),0 0 0 4px rgba(255,255,255,0.1),0 0 0 6px rgba(255,255,255,0.1);
+	  	animation: 3s q linear infinite;
+	  	animation-delay: 9s;
+	  }
+	  .q9{
+	  	position: absolute;
+	  	top: 100%;
+	  	left: 70%;
+	  	width: 3px;
+	  	height: 3px;
+	  	background-color: #F0F8FF;
+	  	border-radius: 100%;
+	  	box-shadow: 0 0 0 2px rgba(255,255,255,0.1),0 0 0 4px rgba(255,255,255,0.1),0 0 0 6px rgba(255,255,255,0.1);
+	  	animation: 3s q linear infinite;
+	  	animation-delay: 1.8s;
+	  }
+	  @keyframes q{
+	  0%{
+	  	transform: rotate(90deg) translate(-700px);
+	  	opacity: 1;
+	  	}
+	  70%{
+	  	opacity: 1;
+	  	}
+	  90%{
+	  	opacity: 0.3;
+	  	}
+	  100%{
+	  	transform: rotate(90deg) translate(0);
+	  	opacity: 0;
+	  	}
+	  }
+	  section {
+	    margin: 100px auto;
+		top: -14.5%;
+	    height:685px;
+	    width: 373px;
+	    position: relative;
+	   border: 1px solid blue;
+	  }
+	  .l,.r {
+	    height:100% ;
+	    width: 50%;
+	   background-color: skyblue;
+	   position: absolute;
+	   transition: all 3s;
+	  }
+	  .l {
+	    left: 0;
+	    top: 0;
+	    border-right: 1px solid red;
+	    transform-origin: left;
+	    
+	  }
+	  .r {
+	    right: 0;
+	    top: 0;
+	    border-left: 1px solid red;
+	    transform-origin: right;
+	  }
+	  section:hover .l{
+	   transform: rotateY(-90deg);
+	   
+	  }
+	  section:hover .r{
+	   transform: rotateY(90deg);
+	   
+	  }
+	  #lzuo{
+	  		 position: absolute;
+	  		 width: 100%;
+	  		 height: 100%;
+	  }
+	  #ryou{
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+	  }
+	  #p_anniu{
+		  opacity: 0;
+	  }
+	  #p_wz11{
+	  	position: absolute;
+	  	font-size: 25px;
+	  	top:25%;
+	  	left: 40%;
+	  }
+	  #p_wz33{
+	  	position: absolute;
+	  	font-size: 25px;
+		top: 44%;
+		left: 30%;
+	  	
+	  }
+	  #p_wz55{
+	  	position: absolute;
+	  	color: #000000;
+	  	font-size: 25px;
+	  	top: 62%;
+	  	left: 41%;
+	  }
+	  #p_wz66{
+	  	position: absolute;
+	  	color: #000000;
+	  	font-size: 25px;
+	  	top: 85%;
+	  	left: 39%;
+	  }
+	  #p_wz_jiazai{
+		  position: absolute;
+		  font-size: 40px;
+		  color: #ffff00;
+		  top: 35%;
+		  left: 30%;
+	  }
